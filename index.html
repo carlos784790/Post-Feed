@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Instagram</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+        
+    </head>
+    <body>
+        <nav class="navbar navbar-light sticky-top bg-light">
+        <a class="navbar-brand" href="#"><i class="fab fa-instagram"></i> Instagram</a>
+            <ul class="nav ">
+                <li class="nav-item">
+                    <button type="button" class="btn btn-primary btn-md btn-success"data-toggle="modal" data-target="#exampleModal">Create a new post</button>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-cogs"></i></a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Log Out</a>
+                    </div>
+                </li>
+
+            </ul>
+        </nav>
+        
+        <!-- Modal Begin -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-body ">
+                  <textarea class="form-control" aria-label="With textarea"></textarea>
+                  <i class="fas fa-camera-retro p-1 border rounded mt-1" ></i>
+                  <i class="fas fa-map-marker-alt p-1 border rounded mt-1" ></i>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-success btn-sm">Publish</button>
+              </div>
+            </div>
+          </div>
+        </div> <!-- modal end -->
+        
+        
+            
+        <div class="container-fluid ">
+          <!-- Nav pills -->
+            <ul class="nav nav-pills justify-content-center mt-4" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#home"><i class="fa fa-square" aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#menu2"><i class="fa fa-th" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div id="home" class="container-fluid tab-pane active "><br>
+                    <div class="row justify-content-center">
+                        <div class="">
+                            
+                            <div class="card mx-auto custom-card" id="prova">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <div class="col-6 float-left "><h4>@leomessi✔️</h4></div>
+                                    <div class="col-6 float-right text-right post-number"><h4>12/14</h4></div>
+                                </div>
+                                <img class="card-img" src="https://e3.365dm.com/23/05/1600x900/skynews-saudi-arabia-tourism_6171934.jpg?20230529073458" width="200x" height="500x" alt="Card image cap">
+                                <div class="card-body px-3">
+                                    <h5 class="card-title">1.3M Likes</h5>
+                                    <p class="card-text">@leomessi✔️ : De vacaciones con mi reina, Visitando a mi amigo el bicho che.</p>
+                                    <p>Read 345k comments</p>
+                                </div>
+                                 <div class="row post-header px-3 pb-3">
+                                    <div class="col-1 float-left text-left"><i class="far fa-heart"></i></i></div>
+                                    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>       
+                            </div>
+                            
+                            <div class="card mx-auto custom-card mt-3" id="prova">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <div class="col-6 float-left "><h4>@leomessi✔️</h4></div>
+                                    <div class="col-6 float-right text-right post-number"><h4>12/14</h4></div>
+                                </div>
+                                <img class="card-img" src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt9eb5920435329b6e/64f93227ab1d80babb3dc24d/Messi_Argentina_WC26.jpg?auto=webp&format=pjpg&width=1080&quality=60"width="200x" height="500x alt="Card image cap">
+                                <div class="card-body px-3">
+                                    <h5 class="card-title">5M Likes</h5>
+                                    <p class="card-text">@leomessi✔️ :Mejor momento de mi carrera che el mundial era mi sueno, Gracias por el apoyo.!!!</p>
+                                    <p>Read 305k comments</p>
+                                </div>
+                                 <div class="row post-header px-3 pb-3">
+                                    <div class="col-1 float-left text-left"><i class="far fa-heart"></i></i></div>
+                                    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>       
+                            </div>
+                            
+                            <div class="card mx-auto custom-card mt-3" id="prova">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <div class="col-6 float-left "><h4>@leomessi✔️</h4></div>
+                                    <div class="col-6 float-right text-right post-number"><h4>12/14</h4></div>
+                                </div>
+                                <img class="card-img" src="https://www.diarioconvos.com/wp-content/uploads/2023/10/Messi-Balon-de-ORO-828x548.jpg"width="200x" height="500x alt="Card image cap">
+                                <div class="card-body px-3">
+                                    <h5 class="card-title">10.3M Likes</h5>
+                                    <p class="card-text">@leomessi✔️ :Pronto vendra otro a la familia mis 7 bebes. Gracias FIFA Siuuu.</p>
+                                    <p>Read 256k comments</p>
+                                </div>
+                                 <div class="row post-header px-3 pb-3">
+                                    <div class="col-1 float-left text-left"><i class="far fa-heart"></i></i></div>
+                                    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>       
+                            </div>
+                            
+                            <div class="card mx-auto custom-card mt-3" id="prova">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <div class="col-6 float-left "><h4>@leomessi✔️</h4></div>
+                                    <div class="col-6 float-right text-right post-number"><h4>12/14</h4></div>
+                                </div>
+                                <img class="card-img" src="https://www.infobae.com/new-resizer/gWMtpRF2i3n_X_AxPrMpzOnBlFA=/992x558/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/BEPSGG73HRETBPXZYMTA2272LQ.jpg"width="200x" height="500x alt="Card image cap">
+                                <div class="card-body px-3">
+                                    <h5 class="card-title">6.2M Likes</h5>
+                                    <p class="card-text">@leomessi✔️ :Mis renacuajos che ojala algun dia mejor que yo en el fut.Los amo❤️</p>
+                                    <p>Read 500k comments</p>
+                                </div>
+                                 <div class="row post-header px-3 pb-3">
+                                    <div class="col-1 float-left text-left"><i class="far fa-heart"></i></i></div>
+                                    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>       
+                            </div>
+                            
+                            <div class="card mx-auto custom-card mt-3" id="prova">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <div class="col-6 float-left "><h4>@leomessi✔️</h4></div>
+                                    <div class="col-6 float-right text-right post-number"><h4>12/14</h4></div>
+                                </div>
+                                <img class="card-img" src="https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/v2/3Q3HJYOGS5ALHGRXC3TA6EPFXE.jpg?auth=97ac634580a1ee56e007e5e34428edcb40d264c7f01d07622cd35df8add2e85a&height=467&width=830&smart=true"width="200x" height="500x alt="Card image cap">
+                                <div class="card-body px-3">
+                                    <h5 class="card-title">10M Likes</h5>
+                                    <p class="card-text">@leomessi✔️ :Que buena pintura me ah pintado este muchacho argentino que talento voz va se grande che!!. Gracias @pintor</p>
+                                    <p>Read 234k comments</p>
+                                </div>
+                                 <div class="row post-header px-3 pb-3">
+                                    <div class="col-1 float-left text-left"><i class="far fa-heart"></i></i></div>
+                                    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>       
+                            </div>
+                            
+                            <div class="card mx-auto custom-card mt-3" id="prova">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <div class="col-6 float-left "><h4>@leomessi✔️</h4></div>
+                                    <div class="col-6 float-right text-right post-number"><h4>12/14</h4></div>
+                                </div>
+                                <img class="card-img" src="https://news.miami.edu/_assets/images-stories/2023/06/lionel-messi-miami-hero-940x529.jpg"width="200x" height="500x alt="Card image cap">
+                                <div class="card-body px-3">
+                                    <h5 class="card-title">13M Likes</h5>
+                                    <p class="card-text">@leomessi✔️ :Practicando un poco con la seleccion para seguir a top nivel. #THEGOAT</p>
+                                    <p>Read 245k comments</p>
+                                </div>
+                                 <div class="row post-header px-3 pb-3">
+                                    <div class="col-1 float-left text-left"><i class="far fa-heart"></i></i></div>
+                                    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>       
+                            </div>
+                            
+                            <div class="card mx-auto custom-card mt-3" id="prova">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <div class="col-6 float-left "><h4>@leomessi✔️</h4></div>
+                                    <div class="col-6 float-right text-right post-number"><h4>12/14</h4></div>
+                                </div>
+                                <img class="card-img" src="https://images.indianexpress.com/2020/06/messi-ronaldo-fb.jpg"width="200x" height="500x alt="Card image cap">
+                                <div class="card-body px-3">
+                                    <h5 class="card-title">10.4M Likes</h5>
+                                    <p class="card-text">@leomessi✔️ :Con el Bicho CR& que buenos momento compartimos juntos en la cancha. @cristianoronaldo</p>
+                                    <p>Read 345k comments</p>
+                                </div>
+                                 <div class="row post-header px-3 pb-3">
+                                    <div class="col-1 float-left text-left"><i class="far fa-heart"></i></i></div>
+                                    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>       
+                            </div>
+                            
+                            <div class="card mx-auto custom-card mt-3" id="prova">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <div class="col-6 float-left "><h4>@leomessi✔️</h4></div>
+                                    <div class="col-6 float-right text-right post-number"><h4>12/14</h4></div>
+                                </div>
+                                <img class="card-img" src="https://dims.apnews.com/dims4/default/c74c85f/2147483647/strip/true/crop/3000x2001+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fstorage.googleapis.com%2Fafs-prod%2Fmedia%2F74b806be6c864939a551ab69f9233e90%2F3000.jpeg"width="200x" height="500x alt="Card image cap">
+                                <div class="card-body px-3">
+                                    <h5 class="card-title">5M Likes</h5>
+                                    <p class="card-text">@leomessi✔️ :Que buen momento este. #fifa #mundial</p>
+                                    <p>Read 300k comments</p>
+                                </div>
+                                 <div class="row post-header px-3 pb-3">
+                                    <div class="col-1 float-left text-left"><i class="far fa-heart"></i></i></div>
+                                    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>       
+                            </div>
+                            
+                            <div class="card mx-auto custom-card mt-3" id="prova">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <div class="col-6 float-left "><h4>@leomessi✔️</h4></div>
+                                    <div class="col-6 float-right text-right post-number"><h4>12/14</h4></div>
+                                </div>
+                                <img class="card-img" src="https://www.prensalibre.com/wp-content/uploads/2023/06/inter-miami-sin-messi.png?quality=52&w=634&h=430&crop=1"width="200x" height="500x alt="Card image cap">
+                                <div class="card-body px-3">
+                                    <h5 class="card-title">10M Likes</h5>
+                                    <p class="card-text">@leomessi✔️ :Messiento bienvenido en Miami no se en que me meti pero la playa super buena che.#miami</p>
+                                    <p>Read 300k comments</p>
+                                </div>
+                                 <div class="row post-header px-3 pb-3">
+                                    <div class="col-1 float-left text-left"><i class="far fa-heart"></i></i></div>
+                                    <div class="col-10 float-left text-left">Comment...</div>
+                                    <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                                </div>       
+                            </div>
+                    
+                        </div>
+                    </div>    
+                </div>
+                
+                <div id="menu2" class="container-fluid tab-pane fade"><br>
+                    <div class="row ">
+                        <div class="col-md-4 col-sm-6 px-1 my-1 ">
+                            <img src="https://e3.365dm.com/23/05/1600x900/skynews-saudi-arabia-tourism_6171934.jpg?20230529073458" alt="Card image cap" width="100%" height="350px">
+                        </div>
+                        <div class="col-md-4 col-sm-6 px-1 my-1 ">
+                            <img src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt9eb5920435329b6e/64f93227ab1d80babb3dc24d/Messi_Argentina_WC26.jpg?auto=webp&format=pjpg&width=1080&quality=60" alt="Card image cap" width="100%" height="350px">
+                        </div>
+                        <div class="col-md-4 col-sm-6 px-1 my-1 ">
+                            <img src="https://www.diarioconvos.com/wp-content/uploads/2023/10/Messi-Balon-de-ORO-828x548.jpg" alt="Card image cap" width="100%" height="350px">
+                        </div>
+                        <div class="col-md-4 col-sm-6 px-1 my-1 ">
+                            <img src="https://www.infobae.com/new-resizer/gWMtpRF2i3n_X_AxPrMpzOnBlFA=/992x558/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/BEPSGG73HRETBPXZYMTA2272LQ.jpg" alt="Card image cap" width="100%" height="350px">
+                        </div>
+                        <div class="col-md-4 col-sm-6 px-1 my-1">
+                            <img src="https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/v2/3Q3HJYOGS5ALHGRXC3TA6EPFXE.jpg?auth=97ac634580a1ee56e007e5e34428edcb40d264c7f01d07622cd35df8add2e85a&height=467&width=830&smart=true" alt="Card image cap" width="100%" height="350px">
+                        </div>
+                        <div class="col-md-4 col-sm-6 px-1 my-1">
+                            <img src="https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/v2/3Q3HJYOGS5ALHGRXC3TA6EPFXE.jpg?auth=97ac634580a1ee56e007e5e34428edcb40d264c7f01d07622cd35df8add2e85a&height=467&width=830&smart=true" alt="Card image cap" width="100%" height="350px">
+                        </div>
+                        <div class="col-md-4 col-sm-6 px-1 my-1">
+                            <img src="https://news.miami.edu/_assets/images-stories/2023/06/lionel-messi-miami-hero-940x529.jpg" alt="Card image cap" width="100%" height="350px">
+                        </div>
+                        <div class="col-md-4 col-sm-6 px-1 my-1">
+                            <img src="https://images.indianexpress.com/2020/06/messi-ronaldo-fb.jpg" alt="Card image cap" width="100%" height="350px">
+                        </div>
+                        <div class="col-md-4 col-sm-6 px-1 my-1">
+                            <img src="https://www.prensalibre.com/wp-content/uploads/2023/06/inter-miami-sin-messi.png?quality=52&w=634&h=430&crop=1" alt="Card image cap" width="100%" height="350px">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
